@@ -18,6 +18,7 @@ const loader = lottie.loadAnimation({
   autoplay: true,
   path: 'loading.json'
 });
+loader.setSpeed(2); // slower loader
 
 // Fetch songs once on startup
 fetch('songs.json')
@@ -57,5 +58,5 @@ function showSongs(genre) {
       p.textContent = `${song.title} (${song.genre})`;
       songsContainer.appendChild(p);
     });
-  }, 10000); // change to 500 or 2000 to make loader shorter/longer
+  }, 5000); // change to 500 or 2000 to make loader shorter/longer
 }
