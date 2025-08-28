@@ -55,7 +55,7 @@ function showSongs(genre) {
     // Render songs
     filtered.forEach(song => {
       let p = document.createElement("p");
-      p.textContent = `${song.title} (${song.genre})`;
+      p.textContent = `${song.title}`;
       songsContainer.appendChild(p);
     });
   }, 5000); // change to 500 or 2000 to make loader shorter/longer
