@@ -1,0 +1,10 @@
+{
+  "songs": [
+    { "title": "Blinding Lights", "genre": "Pop" },
+    { "title": "Enter Sandman", "genre": "Rock" },
+    { "title": "Lose Yourself", "genre": "Hip-Hop" },
+    { "title": "Shape of You", "genre": "Pop" },
+    { "title": "Back in Black", "genre": "Rock" },
+    { "title": "Juicy", "genre": "Hip-Hop" }
+  ]
+}
